@@ -1,0 +1,14 @@
+body {
+    width: 1160px;
+    margin: auto;
+}
+
+
+header{
+    background-color: #782221;
+    text-align: center;
+}
+
+h1 , h2 {
+    color: antiquewhite;
+}
