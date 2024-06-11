@@ -26,9 +26,12 @@ body {
     font-size: 1rem;
     width: 1160px;
     margin: auto;
-    border-right: 1px solid black;
+    border-right: 2px solid black;
 }
 
+nav {
+    height: 15%;
+}
 
 header{
     display: flex;
@@ -49,16 +52,30 @@ img:hover{
     cursor:zoom-in;
 }
 
-h1 , h2 {
+h1  {
     font-family: "Lato",sans-serif;
     font-weight: bold;
     color:white;
 }
 
-h3 {
+.titre {
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+    color:white;
+}
+
+.Tgauche {
     font-family: "Lato",sans-serif;
     background-color: #dbc2a4;
     text-indent:  20px;
+}
+
+.Tdroite {
+    font-family: "Lato",sans-serif;
+    background-color: #dbc2a4;
+    width: 100%;
+    border-left: solid #782221 4px;
+
 }
 
 address *{
@@ -99,10 +116,10 @@ address *{
 
 .right {
     display: flex;
-    width: -66%;
+    width: 66%;
     flex-direction: column;
     padding-left: 25px;
-    align-items: flex-start;
+    
 }
 /*.essai
 {
@@ -114,7 +131,7 @@ address *{
 .corps {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 
