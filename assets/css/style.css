@@ -1,14 +1,30 @@
+@font-face{
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf),url(../fonts/Raleway-VariableFont_wght.woff);
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf) format("truetype"),url(../fonts/Raleway-VariableFont_wght.ttf)format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 body {
+    font-size: 1rem;
     width: 1160px;
     margin: auto;
 }
 
 
 header{
+    display: flex;
+    flex-direction: column;
+    justify-content: f;
+    align-items: center;
     background-color: #782221;
     text-align: center;
 }
 
 h1 , h2 {
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
     color:white;
 }
