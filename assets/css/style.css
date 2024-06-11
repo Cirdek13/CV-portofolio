@@ -1,13 +1,28 @@
+
+
 @font-face{
     font-family: "Raleway";
-    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf),url(../fonts/Raleway-VariableFont_wght.woff);
-    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf) format("truetype"),url(../fonts/Raleway-VariableFont_wght.ttf)format("truetype");
+    src: url(../fonts/Raleway-VariableFont_wght.woff);
+    src: url(../fonts/Raleway-VariableFont_wght.ttf)format("truetype");
+}
+@font-face{ 
+    font-family: "Raleway Italic";
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf);
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf) format("truetype");
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
+
+
 
 body {
+    font-family: "Raleway",sans-serif;
     font-size: 1rem;
     width: 1160px;
     margin: auto;
@@ -16,11 +31,21 @@ body {
 
 header{
     display: flex;
-    flex-direction: column;
-    justify-content: f;
+    flex-direction: column;   
     align-items: center;
     background-color: #782221;
-    text-align: center;
+    padding: 20px;
+    
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 3px,3px,0px,black;
+    
+}
+img:hover{
+    cursor:zoom-in;
 }
 
 h1 , h2 {
@@ -28,3 +53,28 @@ h1 , h2 {
     font-weight: bold;
     color:white;
 }
+
+address *{
+    background-color: #2c1d27;
+    color: white;
+    text-decoration: none;  
+        
+}
+
+
+#contacts {
+    display: flex;
+    /*flex-direction: row;*/   
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px
+          
+}
+
+.map:hover ,.mail:hover,.phone:hover{
+    text-decoration: underline 3px ;
+    color: white;
+}
+
+
+
