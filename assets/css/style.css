@@ -19,8 +19,6 @@
 }
 
 
-
-
 body {
     font-family: "Raleway",sans-serif;
     font-size: 1rem;
@@ -29,9 +27,6 @@ body {
     border-right: 2px solid black;
 }
 
-nav {
-    height: 15%;
-}
 
 header{
     display: flex;
@@ -73,7 +68,7 @@ h1  {
 .Tdroite {
     font-family: "Lato",sans-serif;
     background-color: #dbc2a4;
-    width: 100%;
+    width: 746px;
     border-left: solid #782221 4px;
 
 }
@@ -108,25 +103,27 @@ address *{
     padding-right: 25px;
 }
 
-.propos{
+.About {
     color: white;
     text-indent: 15px;
     padding-left: 15px;
 }
 
+.Languages {
+    color: white;
+}
+
+.Hobby {
+    color: white;
+}
+
 .right {
     display: flex;
-    width: 66%;
+    /*width: 100%;*/
     flex-direction: column;
     padding-left: 25px;
     
 }
-/*.essai
-{
-    display: flex;
-    width: -66%;
-    align-self: self-start;
-}*/
 
 .corps {
     display: flex;
