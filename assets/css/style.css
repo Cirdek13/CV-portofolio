@@ -139,23 +139,32 @@ li:hover,.bordercolor:hover {
     /*width: 100%;*/
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    background-color: #782221;
-    justify-content: center;
-    align-items:center;
-    
-    
+.reseau :hover {  
+        opacity: 0.7;
 
 }
 
-footer img {
-      
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+    justify-content: center;
+    align-items:center;
+    height: 150px;
+    
+}
+
+footer img {      
     width: 60px;
     height: 60px;
     margin: 30px;
+}
 
+time {
+    display: flex;    
+     color: white;
+    padding-bottom: 50px;
+    
 }
 
 
