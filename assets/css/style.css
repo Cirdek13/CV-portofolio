@@ -36,15 +36,15 @@ header{
     padding: 20px;
     
 }
-img {
+header img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius:50%;
     box-shadow: 0px 0px 20px 15px white;
     
     
 }
-img:hover{
+header img:hover{
     cursor:zoom-in;
 }
 
@@ -140,8 +140,22 @@ li:hover,.bordercolor:hover {
 }
 
 .footer {
+    display: flex;
+    flex-direction: row;
     background-color: #782221;
+    justify-content: center;
+    align-items:center;
+    
+    
+
 }
 
+footer img {
+      
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+
+}
 
 
