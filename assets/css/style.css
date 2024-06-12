@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 @font-face{
     font-family: "Raleway";
@@ -12,11 +12,11 @@
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
-*{
+
+/**{
     box-sizing: border-box;
-}
+}*/
 
 
 body {
@@ -40,7 +40,8 @@ img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    box-shadow: 3px,3px,0px,black;
+    box-shadow: 0px 0px 20px 15px white;
+    
     
 }
 img:hover{
@@ -68,12 +69,13 @@ h1  {
 .Tdroite {
     font-family: "Lato",sans-serif;
     background-color: #dbc2a4;
-    width: 776px;
+    /*width: 768px;*/
     border-left: solid #782221 6px;
+    padding-right: 25px;
 
 }
 
-address *{
+address * {
     background-color: #2c1d27;
     color: white;
     text-decoration: none;  
@@ -97,7 +99,7 @@ address *{
 
 .left {
     display: flex;
-    width: 33%;
+    width: 386px;
     background-color: #782221;
     flex-direction: column;
     padding-right: 25px;
@@ -119,9 +121,9 @@ address *{
 
 .right {
     display: flex;
-    width: 100%;
+    width: 774px;
     flex-direction: column;
-    padding-left: 25px;
+    padding-left: 10px;
     padding-right: 25px;
     
 }
@@ -135,6 +137,10 @@ li:hover,.bordercolor:hover {
     display: flex;
     flex-direction: row;
     /*width: 100%;*/
+}
+
+.footer {
+    background-color: #782221;
 }
 
 
